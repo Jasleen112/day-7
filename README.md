@@ -20,4 +20,23 @@ A Server is a powerful computer or system that provides services,data or resourc
 
 MAC ADDRESSES:It stands for Media Access Control Address.It is a unique physical address given to every device's network card(NIC).A MAC address is like a permanent name tag for your                   device on a local network.
 
-WHY MAC ADDRESS IS IMPORTANT:Device Identification Finds specific devices in a network Network Security 
+WHY MAC ADDRESS IS IMPORTANT:Device Identification Finds specific devices in a network Network Security aloows/block by MAC filtering Data Delivery Sends data to correct device on a LAN.
+
+IP ADDRESS(INTERNET PROTOCOL):It is a set of rules that helps devices communicate over the internet by giving each device a unique address called an IP address.
+
+TYPES OF IP ADDRESS(INTERNER PROTOCOL): IPv4(internet protocol version 4),IPv6(Internet Protocol Version 6).
+
+WHAT IS DNS(DOMAIN NAME SYSTEM)?
+DNS is a system that translates website names into IP addresses that computers use to find each other on the internet.
+
+HOW DNS WORKS?
+1.You type a website name.
+2.DNS finds its IP address.
+3.Your device connects to the correct server.
+
+DIFFERENCE BETWEEN UNICAST,BROADCAST,MULTICAST:
+UNICAST:One to one communication -> Single specific device -> Sending a message to a friend only.
+BROADCAST:One-to-all communication -> All devices in the same network -> Router sending ARP to all devices.
+MULTICAST:One-to-many communication -> A specific group of devices -> Live video stream to subscriber.
+
+CLASSES OF IP ADDRESS:
