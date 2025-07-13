@@ -1,4 +1,4 @@
-# day-7
+# day-7 to #  day 15
 In my seventh day  i studied about network,host,client,server,mac address,IP and its types,IP address and its types.
 
 WHAT ARE NETWORK?
@@ -95,10 +95,42 @@ HTML stands for HyperText Markup Language.It is the standard language used to cr
 
 
 HOW BROWSER RENDERS HTML?
-1.Write HTML in a text editor(like notepad or VS code).
-2.Save the file with .html extension (e.g. index.html)
-3.
 
+                 STEP                          WHAT HAPPEN
+              Load HTML                      Browser reads the HTML file.  
+              Parse HTML                     Converts HTML into a DOM(Document Object Model) tree.
+              Load & Apply CSS               If CSS is present,browser applies styles to elements.
+              Build Render Tree              Combines structure(DOM) and style(CSSOM).
+              Layout                         Calculate position & size of each element.
+              Paint                          Draws content(text,images,colors)on screen.
+              Compositing                    Layers are combined to form the final view.
+
+
+BASIC STRUCTURE OF HTML:The basic structure of an HTML document provides the foundation for any web pages.Here's simple example:
+
+   <!DOCTYPE html>
+   <html>
+       <head>
+         <title>My first web page</title>
+       </head>
+       <body>
+         <h1>Welcome to My Website</h1>
+         <p>this is a paragraph.</p>
+       </body>
+     </html>
+
+
+                  TAG                                              PURPOSE
+              <!DOCTYPE html>                             Declares the document type and version of HTML.
+               <html>                                     The root element that wraps the entire HTML document.
+               <head>                                     Contains meta-information (title,styles,etc.) about the page.
+               <title>                                    Sets the title shown the browser tab.
+               <body>                                     Contains the visible content of the web page(text,images,links,etc.).
+               <h1>                                       A heading element(there are six levels:h1 to h6).
+               <p>                                        Defines a paragraph.
+
+
+8/07/2025
 
 
 
